@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-print('!!!')
-
 img_path = '/Users/joon0zo/Project/Correcter/image/mil_04.jpg'
 org = cv2.imread(img_path, cv2.IMREAD_COLOR)
 # print(org)

@@ -31,7 +31,6 @@ class CropLayer(object):
         return [inputs[0][:,:,self.ystart:self.yend,self.xstart:self.xend]]
 
 class HED():
-
     def __init__(self):
         tstamp = time.time()
         print('[RCF] loading...')
