@@ -42,7 +42,7 @@ class Morph():
         #     x1, y1, x2, y2 = line[0]
         #     if abs(y2-y1) > 10 and abs(x2-x1) < 50:
         #         cv2.line(org, (x1,y1), (x2, y2), (255,255,0), 1)
-        return edge1, org #org, edge_morph, edge1
+        return edge_morph, org #org, edge_morph, edge1
 
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
